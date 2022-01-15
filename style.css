@@ -1,3 +1,4 @@
+/*header*/
 header nav{
     display: flex;
     align-items: center;
@@ -7,14 +8,52 @@ header nav a{
     text-decoration: none;
     color: #3A3A3A;
 }
+.navs{
+    margin: 87px 120px;
+}
 .nav-head{
     font-size: 24px;
+    font-weight: 700;
 }
+
 .navs-links{
     display: flex;
     font-size:16px;
-    margin: 87px 120px;
 }
 .navs-link{
     margin-left: 34px;
+}
+/*section 1*/
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 87px 120px;
+
+}
+.first-section-text{
+    width: 582px;
+    height: 270px;
+}
+.first-header{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+}
+.first-text{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.first-link{
+    text-decoration: none;
+    color: white;
+    border: 0;
+    padding: 10px 24px;
+    background-color: turquoise;
+    border-radius: 0 25% ;
+}
+.first-image{
+    background-image:url(images/Circle-design.svg);
 }
