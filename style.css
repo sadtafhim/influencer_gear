@@ -1,3 +1,6 @@
+body{
+    color: #AAAAAA;
+}
 /*header*/
 header nav{
     display: flex;
@@ -28,7 +31,8 @@ header nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 87px 120px;
+    margin-right: 165px;
+    margin-left: 120px;
 
 }
 .first-section-text{
@@ -51,9 +55,132 @@ header nav a{
     color: white;
     border: 0;
     padding: 10px 24px;
-    background-color: turquoise;
+    background-color: rgb(141, 18, 76);
     border-radius: 0 25% ;
 }
 .first-image{
     background-image:url(images/Circle-design.svg);
+}
+
+/*second-section*/
+.second-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px transparent slategrey;
+}
+/* third-section */
+#section-start{
+    color:#3A3A3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+.third-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.products{
+    
+    width: 329px;
+    height: 476px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px #8888881e;
+}
+.images:hover{
+    transform: scale(1.2);
+    transition: transform 1.3s ease-in;
+}
+.name{
+    color: #18191F;
+    font-weight: 500;
+    font-size: 28px;
+    font-weight: bold;
+}
+.price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+}
+.fa-star{
+    color: #FB8200;
+}
+.star-text{
+    font-size: 14px;
+}
+.shifting{
+    color: #787885;
+    font-weight: bold;
+}
+.protection{
+    color: #787885;
+    font-weight: bold;
+}
+/* fourth-section */
+.fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+.workshop-images{
+    width:40%
+}
+.text-links-4{
+    margin: 20px;
+}
+.workshop-header{
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
+.workshop-text{
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.workshop-links{
+    text-decoration: none;
+    color: white;
+    border: 0;
+    padding: 10px 24px;
+    background-color: rgb(141, 18, 76);
+    border-radius: 0 25% ;
+    
+}
+footer{
+    background-color: #513e6e;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-text{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.footer-logos .fab{
+    margin: 0px 16px;
+}
+@media only screen and (max-width: 600px){
+
+}
+@media only screen and (min-width: 600px) and (max-width: 992px){
+
 }
